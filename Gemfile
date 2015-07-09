@@ -8,8 +8,8 @@ gem 'sqlite3', group: [:development, :test]
 
 # Use postgresql as the database for production
 group :production do
-	gen 'pg'
-	gen 'rails_12factor'
+	gem 'pg'
+	gem 'rails_12factor'
 end
 
 # Use SCSS for stylesheets
